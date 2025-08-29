@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "jest",
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
-    "deploy": "gh-pages -d dist"
-  },
+  "build": "parcel build index.html --public-url /Location-Tracker/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
