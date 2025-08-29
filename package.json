@@ -3,22 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-  "build": "parcel build index.html --public-url ./",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
+    "test":"react-scripts test",
+    "eject":"react-scripts eject"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/coderBhav/Location-Tracker.git"
+    "type": "git",
+    "url": "git+https://github.com/coderBhav/Location-Tracker.git"
   },
   "bugs": {
     "url": "https://github.com/coderBhav/Location-Tracker/issues"
   },
-  "homepage": "https://coderBhav.github.io/Location-Tracker/",
+  "homepage": "https://coderBhav.github.io/Location-Tracker",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.15.4"
