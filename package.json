@@ -4,14 +4,13 @@
   "description": "",
   "scripts": {
     "test": "jest",
-    "start":"parcel index.html",
-    "build":"parcel build index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coderBhav/React.git"
@@ -23,10 +22,13 @@
     "parcel": "^2.15.4"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "leaflet": "^1.9.4",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-leaflet": "^5.0.0"
   },
-  "browsersList":[
+  "browsersList": [
     "last 2 versions"
   ]
 }
