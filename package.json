@@ -13,13 +13,13 @@
   "license": "ISC",
   "type": "commonjs",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coderBhav/React.git"
+  "type": "git",
+  "url": "git+https://github.com/coderBhav/Location-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coderBhav/Location-Tracker/issues"
   },
   "homepage": "https://coderBhav.github.io/Location-Tracker/",
-  "bugs": {
-    "url": "https://github.com/coderBhav/React/issues"
-  },
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.15.4"
